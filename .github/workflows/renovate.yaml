@@ -15,3 +15,5 @@ jobs:
         uses: renovatebot/github-action@531c6786d6cf05ef148c4cfe251745c2c6de442c # v41.0.9
         with:
           token: ${{ secrets.RENOVATE_TOKEN }}
+        env:
+          RENOVATE_REPOSITORIES: '["sthdev/renovate-33658"]'
