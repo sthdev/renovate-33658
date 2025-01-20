@@ -25,3 +25,4 @@ jobs:
           token: ${{ steps.token.outputs.token }}
         env:
           RENOVATE_REPOSITORIES: '["sthdev/renovate-33658"]'
+          LOG_LEVEL: debug
