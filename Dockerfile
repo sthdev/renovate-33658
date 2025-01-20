@@ -1,1 +1,1 @@
-from ubuntu:jammy
+from ubuntu:noble
